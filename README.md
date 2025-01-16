@@ -1,1 +1,25 @@
-# repository
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
+  "commit": false,
+  "fixed": [["@fuel-ts/*", "fuels", "create-fuels"]],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "master",
+  "updateInternalDependencies": "patch",
+  "ignore": [
+    "fuel-gauge",
+    "docs",
+    "demo-fuels",
+    "demo-bun-fuels",
+    "demo-react-cra",
+    "demo-react-vite",
+    "demo-nextjs",
+    "demo-node-esm",
+    "demo-typegen",
+    "template-nextjs",
+    "create-fuels-counter-guide",
+    "demo-wallet-sdk-react",
+    "template-vite",
+    "docs-api"
+  ]
+}
